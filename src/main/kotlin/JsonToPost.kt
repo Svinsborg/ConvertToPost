@@ -27,24 +27,22 @@ object JsonToPost {
             }*/
         }
         return try {
-        client.get {
-            url(URL1)
-        }
-        }catch ( err: RedirectResponseException){
+            client.get {
+                url(URL0)
+            }
+        } catch (err: RedirectResponseException) {
             println("Error redirect: ${err.response.status.description}")
             emptyList()
-        }catch ( err: ClientRequestException){
+        } catch (err: ClientRequestException) {
             println("Error client: ${err.response.status.description}")
             emptyList()
-        }catch ( err: ServerResponseException){
+        } catch (err: ServerResponseException) {
             println("Error server: ${err.response.status.description}")
             emptyList()
-        }catch ( err: Exception){
+        } catch (err: Exception) {
             println("Error unknown: ${err.message}")
             emptyList()
         }
 
-
     }
-
-    }
+}
