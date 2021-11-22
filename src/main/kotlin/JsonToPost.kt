@@ -28,7 +28,7 @@ object JsonToPost {
         }
         return try {
         client.get {
-            url(URL0)
+            url(URL1)
         }
         }catch ( err: RedirectResponseException){
             println("Error redirect: ${err.response.status.description}")
