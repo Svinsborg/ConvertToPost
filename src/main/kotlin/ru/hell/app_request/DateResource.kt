@@ -1,3 +1,5 @@
+package ru.hell.app_request
+
 class DateResource {
 
     companion object {
@@ -97,8 +99,8 @@ class DateResource {
             )
 
 /*           list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 1,
                         author = "Andy",
                         content = "Some very long text for testing application for Android",
@@ -116,8 +118,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 2,
                         author = "Filth",
                         content = "Как всегда, ничего не работает!",
@@ -135,8 +137,8 @@ class DateResource {
             )*/
 
 /*             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 3,
                         author = "RIDan",
                         content = "Сломал все что было, кто ченить будет?",
@@ -153,8 +155,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 4,
                         author = "Svinsborg",
                         content = "Свинья свиньей!",
@@ -171,8 +173,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 5,
                         author = "Satan",
                         content = "Работай! А то так и будешь пыль с камер протирать!",
@@ -189,8 +191,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 6,
                         author = "Brute",
                         content = "Сломал ногу об гранит науки",
@@ -207,8 +209,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 7,
                         author = "Android",
                         content = "Сколько можно это заполнять??!",
@@ -225,8 +227,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 8,
                         author = "Kotlin",
                         content = "Спать пора! Заканчивай!",
@@ -243,8 +245,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 9,
                         author = "Java",
                         content = "В декабре разве так рано встает солнце?",
@@ -261,8 +263,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 10,
                         author = "Jesika",
                         content = "Снова в бой!",
@@ -279,8 +281,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 11,
                         author = "Rouse",
                         content = "Инструкция по нерабочему проекту",
@@ -297,8 +299,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 12,
                         author = "Andy",
                         content = "Лучше удали эту х@3#Y",
@@ -315,8 +317,8 @@ class DateResource {
             )
 
             list.add(
-                Post(
-                        type = PostType.POST,
+                ru.hell.app_request.Post(
+                        type = ru.hell.app_request.PostType.POST,
                         id = 13,
                         author = "Judi",
                         content = "Пожалуй хватит",
