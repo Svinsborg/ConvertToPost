@@ -14,8 +14,9 @@ repositories {
 mainClassName = 'ru.hell.app_request.Main'
 
 dependencies {
+
     testImplementation 'org.jetbrains.kotlin:kotlin-test:1.6.0'
-    def ktor_version = "1.6.5"
+    def ktor_version = '1.6.6'
     def logback_version = '1.2.7'
     implementation "io.ktor:ktor-client-core:$ktor_version"
     implementation "io.ktor:ktor-client-serialization:$ktor_version"
@@ -25,8 +26,8 @@ dependencies {
     implementation "io.ktor:ktor-client-logging-jvm:$ktor_version"
     implementation "io.ktor:ktor-client-apache:$ktor_version"
     implementation "ch.qos.logback:logback-classic:$logback_version"
-    //implementation 'io.ktor:ktor-client-curl-metadata:1.4.2'
-    //implementation 'io.ktor:ktor-client-curl:1.6.5'
+/*    implementation "io.ktor:ktor-client-curl-metadata:$ktor_version"
+    implementation "io.ktor:ktor-client-curl:$ktor_version"*/
 
     def gson_version = "2.8.9"
     implementation "com.google.code.gson:gson:$gson_version"
